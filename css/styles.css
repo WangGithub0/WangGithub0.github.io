@@ -1,0 +1,136 @@
+html,
+body {
+  width: 95%;
+  max-width: 1024px;
+  margin: auto;
+}
+
+#top {
+  background-color: #00bcd4;
+  margin: auto;
+  padding: 50px;
+}
+
+#photo {
+  /* display: block; */
+  width: 200px;
+  /* margin: auto; */
+}
+
+#name {
+  margin: 10px;
+  font-family: Anton, sans-serif;
+  /* text-align: center; */
+  color: whitesmoke;
+}
+
+#position {
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+  color: whitesmoke;
+}
+
+#icon {
+    border-radius: 100px
+}
+
+#infographic {
+    /* background-color:rgb(252, 249, 249); */
+    background-color:#fff;
+    margin: auto;
+    padding: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+}
+
+#infographic p{
+    font-size: 0.8em;
+    font-family: Montserrat, sans-serif;
+    margin-top: 0.2em;
+}
+
+#infographic h5{
+    font-family: Oswald, sans-serif;
+    margin-top: 0.2em;
+    margin-bottom: 1em;
+}
+
+#infographic h6 {
+  /* line-height: 1.1; */
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial,
+    "Noto Sans", sans-serif;
+  font-size: 0.8em;
+  font-weight: 700;
+  margin-top: 0.2em;
+}
+
+#education {
+    background-color:rgb(252, 249, 249);
+    margin: auto;
+    padding: 20px;
+    padding-top: 2em;
+    padding-bottom: 3em;
+}
+#education h1{
+    text-align:center;
+}
+
+#eduCard {
+    background-color:#fff;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+}
+
+#eduDate {
+    background-color:rgb(60, 139, 214);
+    color: white;
+}
+
+#eduDate p {
+    margin-top: 5em;
+    margin-bottom: 1em;
+    font-size: 0.8em;
+}
+
+#eduDate h5 {
+    font-family: Oswald, sans-serif;
+    margin-top: 0.2em;
+    margin-bottom: 1em;
+}
+
+#eduInfo h5{
+    font-family: Oswald, sans-serif;
+    margin-top: 1em;
+    margin-bottom: 0.1em;
+    margin-left: 1.5em;
+}
+#eduInfo h7{
+    font-family: Montserrat, sans-serif;
+    margin-top: 0em;
+    margin-left: 2.7em;
+    font-size: 0.7em;
+}
+#eduInfo p{
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial,
+    "Noto Sans", sans-serif;
+    margin-top: 1em;
+    margin-left: 1.8em;
+    margin-bottom: 3em;
+}
+#eduInfo span{
+    color: rgb(29, 202, 66);
+}
+
+#form h1{
+    text-align:center;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+#contact-hourly-rate::before{
+    content:"$";
+    left:5px;
+	top:2px;
+}
